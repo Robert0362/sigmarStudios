@@ -30,7 +30,7 @@ document.getElementById("ChaosLord").addEventListener("click", function()
         body2.setAttribute("src", "images/Singles/ChaosLord/ChaosLord2.JPG");
         body3.setAttribute("src", "images/Singles/ChaosLord/ChaosLord3.JPG");
     }
-  )
+)
 
 document.getElementById("Engiseer").addEventListener("click", function()
   {
@@ -100,7 +100,6 @@ document.getElementById("OldBlood").addEventListener("click", function()
 document.getElementById("VahallanCapt").addEventListener("click", function()
   {
       let title = document.getElementById("VahallanCapt").getAttribute('data-name');
-      console.log(title);
       document.querySelector(".modal-title").innerHTML = title; 
       let body1 = document.getElementById('firstSlide');
       let body2 = document.getElementById('secondSlide');
@@ -114,7 +113,6 @@ document.getElementById("VahallanCapt").addEventListener("click", function()
 document.getElementById("SkinkPriest").addEventListener("click", function()
   {
       let title = document.getElementById("SkinkPriest").getAttribute('data-name');
-      console.log(title);
       document.querySelector(".modal-title").innerHTML = title; 
       let body1 = document.getElementById('firstSlide');
       let body2 = document.getElementById('secondSlide');
@@ -128,7 +126,6 @@ document.getElementById("SkinkPriest").addEventListener("click", function()
 document.getElementById("BeastLord").addEventListener("click", function()
   {
       let title = document.getElementById("BeastLord").getAttribute('data-name');
-      console.log(title);
       document.querySelector(".modal-title").innerHTML = title; 
       let body1 = document.getElementById('firstSlide');
       let body2 = document.getElementById('secondSlide');
