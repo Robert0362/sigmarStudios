@@ -18,11 +18,18 @@
 document.getElementById("ChaosLord").addEventListener("click", function()
     {
         let title = document.getElementById("ChaosLord").getAttribute('data-name');
-        console.log(title);
         document.querySelector(".modal-title").innerHTML = title; 
+        let body1 = document.getElementById('firstSlide');
+        let body2 = document.getElementById('secondSlide');
+        let body3 = document.getElementById('thirdSlide');
+        body1.setAttribute("src", "images/Singles/csmLord/ChaosLord1.JPG");
+        body2.setAttribute("src", "images/Singles/csmLord/ChaosLord2.JPG");
+        body3.setAttribute("src", "images/Singles/csmLord/ChaosLord3.JPG");
     }
   )
 
+
+  
 document.getElementById("Engiseer").addEventListener("click", function()
   {
       let title = document.getElementById("Engiseer").getAttribute('data-name');
@@ -37,6 +44,7 @@ document.getElementById("Engiseer").addEventListener("click", function()
    
   }
 )
+
 document.getElementById("GaellicGaurdianVetSrgt").addEventListener("click", function()
   {
       let title = document.getElementById("GaellicGaurdianVetSrgt").getAttribute('data-name');
