@@ -39,9 +39,9 @@ document.getElementById("Engiseer").addEventListener("click", function()
       let body1 = document.getElementById('firstSlide');
       let body2 = document.getElementById('secondSlide');
       let body3 = document.getElementById('thirdSlide');
-      body1.setAttribute("src", "images/Singles/enginseer/Engiseer1.JPG");
-      body2.setAttribute("src", "images/Singles/enginseer/Engiseer2.JPG");
-      body3.setAttribute("src", "images/Singles/enginseer/Engiseer4.JPG");
+      body1.setAttribute("src", "images/Singles/Engiseer/Engiseer1.JPG");
+      body2.setAttribute("src", "images/Singles/Engiseer/Engiseer2.JPG");
+      body3.setAttribute("src", "images/Singles/Engiseer/Engiseer4.JPG");
   }
 )
 
@@ -52,9 +52,9 @@ document.getElementById("GaellicGaurdianVetSrgt").addEventListener("click", func
       let body1 = document.getElementById('firstSlide');
       let body2 = document.getElementById('secondSlide');
       let body3 = document.getElementById('thirdSlide');
-      body1.setAttribute("src", "images/Singles/gaullicGaurd/GaellicGaurdianVetSrgt1.JPG");
-      body2.setAttribute("src", "images/Singles/gaullicGaurd/GaellicGaurdianVetSrgt2.JPG");
-      body3.setAttribute("src", "images/Singles/gaullicGaurd/GaellicGaurdianVetSrgt4.jpg");
+      body1.setAttribute("src", "images/Singles/GaellicGaurdianVetSrgt/GaellicGaurdianVetSrgt1.JPG");
+      body2.setAttribute("src", "images/Singles/GaellicGaurdianVetSrgt/GaellicGaurdianVetSrgt2.JPG");
+      body3.setAttribute("src", "images/Singles/GaellicGaurdianVetSrgt/GaellicGaurdianVetSrgt4.jpg");
   }
 )
 
@@ -65,9 +65,9 @@ document.getElementById("IGHero").addEventListener("click", function()
       let body1 = document.getElementById('firstSlide');
       let body2 = document.getElementById('secondSlide');
       let body3 = document.getElementById('thirdSlide');
-      body1.setAttribute("src", "images/Singles/cadianCaptain/IGHero.JPG");
-      body2.setAttribute("src", "images/Singles/cadianCaptain/IGHero1.JPG");
-      body3.setAttribute("src", "images/Singles/cadianCaptain/IGHero2.JPG");
+      body1.setAttribute("src", "images/Singles/IGHero/IGHero.JPG");
+      body2.setAttribute("src", "images/Singles/IGHero/IGHero1.JPG");
+      body3.setAttribute("src", "images/Singles/IGHero/IGHero2.JPG");
   }
 )
 
@@ -78,9 +78,9 @@ document.getElementById("Tyrant").addEventListener("click", function()
       let body1 = document.getElementById('firstSlide');
       let body2 = document.getElementById('secondSlide');
       let body3 = document.getElementById('thirdSlide');
-      body1.setAttribute("src", "images/Singles/ogreTyrant/Tyrant1.JPG");
-      body2.setAttribute("src", "images/Singles/ogreTyrant/Tyrant4.JPG");
-      body3.setAttribute("src", "images/Singles/ogreTyrant/Tyrant5.JPG");
+      body1.setAttribute("src", "images/Singles/Tyrant/Tyrant1.JPG");
+      body2.setAttribute("src", "images/Singles/Tyrant/Tyrant4.JPG");
+      body3.setAttribute("src", "images/Singles/Tyrant/Tyrant5.JPG");
   }
 )
 
@@ -91,9 +91,9 @@ document.getElementById("OldBlood").addEventListener("click", function()
       let body1 = document.getElementById('firstSlide');
       let body2 = document.getElementById('secondSlide');
       let body3 = document.getElementById('thirdSlide');
-      body1.setAttribute("src", "images/Singles/oldOneMounted/OldBlood1.JPG");
-      body2.setAttribute("src", "images/Singles/oldOneMounted/OldBlood2.JPG");
-      body3.setAttribute("src", "images/Singles/oldOneMounted/OldBlood3.JPG");
+      body1.setAttribute("src", "images/Singles/OldBlood/OldBlood1.JPG");
+      body2.setAttribute("src", "images/Singles/OldBlood/OldBlood2.JPG");
+      body3.setAttribute("src", "images/Singles/OldBlood/OldBlood3.JPG");
   }
 )
 
@@ -104,9 +104,9 @@ document.getElementById("VahallanCapt").addEventListener("click", function()
       let body1 = document.getElementById('firstSlide');
       let body2 = document.getElementById('secondSlide');
       let body3 = document.getElementById('thirdSlide');
-      body1.setAttribute("src", "images/Singles/vahallan/VahallanCapt1.JPG");
-      body2.setAttribute("src", "images/Singles/vahallan/VahallanCapt2.JPG");
-      body3.setAttribute("src", "images/Singles/vahallan/VahallanCapt3.JPG");
+      body1.setAttribute("src", "images/Singles/VahallanCapt/VahallanCapt1.JPG");
+      body2.setAttribute("src", "images/Singles/VahallanCapt/VahallanCapt2.JPG");
+      body3.setAttribute("src", "images/Singles/VahallanCapt/VahallanCapt3.JPG");
   }
 )
 
@@ -130,9 +130,9 @@ document.getElementById("BeastLord").addEventListener("click", function()
       let body1 = document.getElementById('firstSlide');
       let body2 = document.getElementById('secondSlide');
       let body3 = document.getElementById('thirdSlide');
-      body1.setAttribute("src", "images/Singles/beastlord/BeastLord2.JPG");
-      body2.setAttribute("src", "images/Singles/beastlord/BeastLord1.JPG");
-      body3.setAttribute("src", "images/Singles/beastlord/BeastLord3.JPG");
+      body1.setAttribute("src", "images/Singles/BeastLord/BeastLord2.JPG");
+      body2.setAttribute("src", "images/Singles/BeastLord/BeastLord1.JPG");
+      body3.setAttribute("src", "images/Singles/BeastLord/BeastLord3.JPG");
   }
 )
 
@@ -140,26 +140,6 @@ let btnChoice = document.getElementById('armyBtn').addEventListener('click', fun
     {
         let e = document.getElementById("armySelect");
         let choice = e.value;
-        console.log(choice);
-        switch(choice)
-        {
-            case('lizardmen'):
-                //goto lizardmen.html
-                break;
-            case('chaos'):
-                // goto chaos page
-                break;
-            case('highelf'):   
-                 //goto highelf page
-                break;
-            case('imperialguard'):
-                //goto imperialguard page
-                break;
-            case('ogres'):
-                //got ogre page
-                break;
-            case('sisters'):
-                //got sisters page
-                break;
-        }   
+        window.open(`${choice}.html`);
+      
     });
