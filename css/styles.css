@@ -2,3 +2,8 @@ body
 {
     font-family:'Crimson Text' ;
 }
+.headshots
+{
+    width: 35%;
+    border-radius: 50%;
+}
