@@ -143,3 +143,4 @@ let btnChoice = document.getElementById('armyBtn').addEventListener('click', fun
         window.open(`${choice}.html`);
       
     });
+
